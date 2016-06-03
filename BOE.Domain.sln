@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOE.DAL", "BOE.DAL\BOE.DAL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{F84CBB50-6D06-4682-891C-C18A435F1718}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOE.Web", "BOE.Web\BOE.Web.csproj", "{CA89DDD4-0C32-41B5-9711-0E8D564264C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F84CBB50-6D06-4682-891C-C18A435F1718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84CBB50-6D06-4682-891C-C18A435F1718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F84CBB50-6D06-4682-891C-C18A435F1718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA89DDD4-0C32-41B5-9711-0E8D564264C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA89DDD4-0C32-41B5-9711-0E8D564264C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA89DDD4-0C32-41B5-9711-0E8D564264C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA89DDD4-0C32-41B5-9711-0E8D564264C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

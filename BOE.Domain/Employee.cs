@@ -13,6 +13,6 @@ namespace BOE.Domain
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-
+        public virtual ICollection<Qualification> Qualifications { get; set; }
     }
 }
