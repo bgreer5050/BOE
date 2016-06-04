@@ -3,15 +3,92 @@
   <Class Name="BOE.Domain.Employee" Collapsed="true">
     <Position X="1" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAEAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAg=</HashCode>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAEAAg=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BOE.Domain.Incident">
-    <Position X="3.25" Y="0.5" Width="1.5" />
+  <Class Name="BOE.Domain.SalariedEmployee" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACBAAAAAAggAAAAAAgAABACAAAgAAAEIAAAAAAIAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.HourlyEmployee" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.Incident" Collapsed="true">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAgAAAACAAAgAAAAAAAAAAAIAA=</HashCode>
       <FileName>Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.SafetyIncident" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.OtherIncident" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.AttendanceIncident" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.Job">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Job.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.Qualification">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAAAAAAAAAACAACAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Qualification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.Education" Collapsed="true">
+    <Position X="1.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Education.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.EducationInternal" Collapsed="true">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Education.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.EducationExternal" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Education.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BOE.Domain.EducationLog">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAjAAAEAAAAAAAAAAAAAAAACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EducationLog.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

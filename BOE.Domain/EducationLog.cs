@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace BOE.Domain
 {
-    public class Qualification
+   public  class EducationLog
     {
         public int Id { get; set; }
-        public DateTime Date { get; set; }
-        public Job Job { get; set; }
+        public Employee Employee { get; set; }
+        public Education Education { get; set; }
         public string Status { get; set; }
-        public virtual Employee Employee { get; set; }
-
-
-        
-
+        public DateTime StausDate { get; set; }
+        public string Notes { get; set; }
     }
 }

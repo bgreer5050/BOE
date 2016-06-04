@@ -22,6 +22,16 @@ namespace BOE.DAL
     {
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<SalariedEmployee> SalariedEmployees { get; set; }
+        public DbSet<HourlyEmployee> HourlyEmployees { get; set; }
+
+        public DbSet<SafetyIncident> SafetyIncidents { get; set; }
+        public DbSet<AttendanceIncident> AttendanceIncidents { get; set; }
+        public DbSet<OtherIncident> OtherIncidents { get; set; }
+
+        public DbSet<EducationExternal> EducationExternals { get; set; }
+        public DbSet<EducationInternal> EducationInternals { get; set; }
+
+        public DbSet<EducationLog> EducationLogs { get; set; }
     }
 }

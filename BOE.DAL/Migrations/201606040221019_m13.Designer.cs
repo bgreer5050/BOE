@@ -7,13 +7,13 @@ namespace BOE.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class m5 : IMigrationMetadata
+    public sealed partial class m13 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(m5));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(m13));
         
         string IMigrationMetadata.Id
         {
-            get { return "201606032121421_m5"; }
+            get { return "201606040221019_m13"; }
         }
         
         string IMigrationMetadata.Source

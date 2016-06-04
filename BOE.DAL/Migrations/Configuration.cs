@@ -10,7 +10,6 @@ namespace BOE.DAL.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "BOE.DAL.BOEContext";
         }
 
         protected override void Seed(BOE.DAL.BOEContext context)
